@@ -1,0 +1,158 @@
+.zapis_na_priem select,
+.zapis_na_priem textarea {
+	display: inline-block;
+	width: 172px;
+	margin-bottom: 10px;
+	font-size: 12px;
+	line-height: 20px;
+	vertical-align: middle;
+	color: #4e4a4a;
+	background-color: #ffffff;
+}
+
+.zapis_na_priem input[name=type],
+.zapis_na_priem input[name=code] {
+	float: right;
+}
+
+.zapis_na_priem input[type="radio"] {
+	height: auto;
+}
+
+.zapis_na_priem .radio-container {
+	display: inline-block;
+	width: 50%;
+	text-align: left;
+	border: none;
+}
+
+.zapis_na_priem .tabs input[type="radio"],
+.zapis_na_priem .radio-container input[type="radio"] {
+	width: auto !important;
+}
+
+div.tabs-cont div.radio-container__item {
+	border: none;
+	background: transparent;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+}
+
+.zapis_na_priem select {
+	width: 182px;
+}
+
+.zapis_na_priem textarea {
+	height: 90px;
+}
+
+.zapis_na_priem input:focus,
+.zapis_na_priem textarea:focus {
+	border-color: rgba(82, 168, 236, 0.8);
+	outline: 0;
+	outline: thin dotted \9;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+}
+
+.zapis_na_priem input {
+	box-sizing: border-box;
+}
+
+.zapis_na_priem .country-phone {
+	padding: 0;
+}
+
+.zapis_na_priem #date-blck {
+	padding: 0;
+}
+
+.zapis_na_priem .label-date {
+	width: 87px;
+}
+
+.zapis_na_priem .label-date + .label-date {
+	width: 50%;
+	float: right;
+}
+
+.zapis_na_priem img {
+	margin-top: 1px;
+}
+
+.zapis_na_priem input[name="code"] {
+	width: 50% !important;
+}
+
+.zapis_na_priem .country-phone-options {
+	margin: 30px 0 0 -10px;
+}
+
+.block-header2 + .zapis_na_priem {
+	background: #ffffff;
+	border: none;
+}
+
+.zapis_na_priem td .privacy-policy-checkbox {
+	margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+	.block-header2 + .zapis_na_priem {
+		margin-bottom: 0;
+	}
+
+	.zapis_na_priem input:not([type="radio"]):not([type="checkbox"]),
+	.zapis_na_priem select,
+	.zapis_na_priem textarea {
+		width: 100%;
+		box-sizing: border-box;
+	}
+
+	.zapis_na_priem input[type=radio],
+	.zapis_na_priem input[type=checkbox] {
+		padding: 0 !important;
+	}
+
+	.zapis_na_priem select,
+	select[name=doctor2] {
+		width: 100%;
+	}
+
+	.zapis_na_priem input[type=submit] {
+		display: block;
+	}
+}
+
+#zapis_na_priem > table > tbody > tr > td,
+.zapis_na_priem .radio-container,
+.zapis_na_priem #doctors_select,
+.zapis_na_priem #first,
+.zapis_na_priem #second {
+	background: transparent;
+	border: 0;
+}
+
+.zapis_na_priem #doctors_select,
+.zapis_na_priem #first,
+.zapis_na_priem #second {
+	width: 100%;
+}
+
+#zapis_na_priem tr > td:first-child {
+	vertical-align: top !important;
+	padding-top: 15px;
+}
+
+@media (max-width: 1025px) {
+	#zapis_na_priem > table > tbody > tr {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	#zapis_na_priem td {
+		width: 100%;
+	}
+}
